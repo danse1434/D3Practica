@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a JS y SVG</title>
+    <link rel='stylesheet' type='text/css' href="styles.css"> 
+</head>
+
+<body>
+    <h1>Reporte de Carros</h1>
+    <ul style="font-size:1.3em">
+        <li>2012 Nissan Leaf </li>
+        <li>2009 Ford Toyota </li>
+        <li>2004 Chevrolet Aveo </li>
+        <li>2008 Chevy Pick </li>
+    </ul>
+
+    <p>Hola amigos</p>
+
+    <!--Modulo SVG de HTML-->
+    <!--Creando un círculo-->
+    <svg width="960", height="1000">
+        <!--Elementos primitivos de SVG-->
+        
+        <g class="line_styles"> 
+        <line x1="200" y1='200' x2='200' y2='400'></line>
+        <line x1="200" y1='400' x2='400' y2='400'></line>
+        <path d='M400 400 L500 400 L500 200'></path>
+        <path d='M400 400 L500 400 L500 200'></path>
+        <path d='M100 500 h 500 v-500 h-500 v500'></path>
+        </g>
+
+        <circle cx="200", cy="200", r = "60", fill="red"></circle>
+        <rect x='300', y='100', fill='green', width='60', height='60'></rect>
+        <circle cx="500", cy="200", r = "60", fill="blue"></circle>
+        <rect x='300', y='200', fill='#83cc2a', width='60', height='60'></rect>
+        
+        <!--Grupo de imagénes-->
+        <g transform="translate(-160,200)", stroke='white'>
+            <circle cx="500", cy="200", r = "60", fill="#9e2453"></circle>
+        </g>
+    </svg>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+rect{
+    /* background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+    fill: url(#svgGradiente);
+    stroke: black;
+}
+text{
+    font-size: small;
+}
+.titulo{
+    font: bolder;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.tituloEjeX{
+    font: bolder;
+    font-size: medium;
+    font-family: sans-serif;
+    fill: black;
+}
+.tick line{
+    stroke: gainsboro;
+}

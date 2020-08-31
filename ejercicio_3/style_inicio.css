@@ -1,0 +1,8 @@
+.barra div{
+    font-size: 10px;
+    background-color: blue;
+    text-align: right;
+    padding:5px;
+    margin: 25px;
+    color: white;
+}

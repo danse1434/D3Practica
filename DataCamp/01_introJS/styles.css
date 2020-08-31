@@ -1,0 +1,10 @@
+/* Estilos de subelementos gráficos */
+.h1{
+    color: teal;
+}
+
+.line_styles{
+    stroke: sandybrown;
+    stroke-width: 5;
+    fill: none;
+}
